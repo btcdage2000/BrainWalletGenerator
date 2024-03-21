@@ -1,0 +1,4 @@
+Pillow
+qrcode
+bip_utils
+bitcoinlib
