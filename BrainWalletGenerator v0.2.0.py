@@ -252,7 +252,7 @@ generate_count_entry['validatecommand'] = (generate_count_entry.register(validat
 generate_count_entry.pack(side="top", pady=3)
 generate_count_entry.insert(0, "1")
 
-generate_button = ttk.Button(main_frame, text="Generate Nostr Keys / 生成 Nostr 密钥", command=generate_brain_wallet)
+generate_button = ttk.Button(main_frame, text="Generate Brain Wallet / 开始计算", command=generate_brain_wallet)
 generate_button.pack(side="top", pady=3)
 clear_button = ttk.Button(main_frame, text="Clear All / 清空所有", command=clear_all_results)
 clear_button.pack(side="top", pady=10)
