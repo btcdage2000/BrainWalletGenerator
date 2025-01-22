@@ -113,7 +113,6 @@ def generate_addresses(mnemonic_words, count):
     return output_text
 
 def generate_from_mnemonic_thread():
-    clear_all_results()
     results_text.config(state=tk.NORMAL)
     results_text.insert("1.0", "正在生成...\n")
     results_text.config(state=tk.DISABLED)
